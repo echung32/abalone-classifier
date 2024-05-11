@@ -4,7 +4,12 @@
 abalone-regression
 ==============================
 
-Predict the age of abalone from various physical measurements.
+> Abalones are sea snails that are prized for their unique meat, beautiful shells, and cultural importance, but their price varies significantly with age. Traditionally, methods to determine the age of abalone involve laborious tasks like shell cutting, staining, and ring counting under a microscope. Fortunately, machine learning offers an alternative method to predict the age of abalone using other easier-to-obtain physical measurements, thus saving time and money. The goal is to develop a regression model capable of predicting the age of abalone through various physical measurements.
+
+- Full Report located at `/reports/report.pdf`.
+
+Kaggle Competition: [https://www.kaggle.com/competitions/playground-series-s4e4](https://www.kaggle.com/competitions/playground-series-s4e4/overview)
+
 
 Project Organization
 ------------
@@ -13,20 +18,11 @@ Project Organization
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    ├── notebooks          <- Jupyter notebooks. 
     │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
